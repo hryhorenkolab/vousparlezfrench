@@ -231,6 +231,8 @@ h3.menu-item-title {
 /* END SINGLE CATEGORY PAGE */
 
 
+
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
@@ -295,18 +297,18 @@ h3.menu-item-title {
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
-  .navbar-brand p { /* Kosher cert */
+  .navbar-brand p {
     font-size: .6em;
     margin-top: 12px;
   }
-  .navbar-brand p img { /* Star-K */
+  .navbar-brand p img { 
     height: 20px;
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a { 
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav a span { 
     font-size: 1em;
     margin-right: 5px;
   }
@@ -362,6 +364,16 @@ h3.menu-item-title {
   }
 }
 
+#menu-categories-title > br{
+  margin-bottom: 15px;
+}
+
+#menu-categories-title span{
+
+}
+
+
+
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
@@ -387,6 +399,55 @@ h3.menu-item-title {
     width: 100%;
   }
 }
+
+  /* End Home page */
+
+  /* about-me page */
+#oksana_story{
+line-height: 32px;   /* within paragraph */
+margin-bottom: 30px; /* between paragraphs */
+}
+
+  /* end about-me page */
+
+
+  /* methods page */
+
+  .methods-table{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+
+  }
+
+  .card{
+    max-width: 360px;
+    background-color: rgb(45, 45, 226);
+    margin: 10px 10px;
+    overflow: hidden;
+    color: white;
+   font-weight: 600;
+   text-align: center;
+   border-radius:  5px 5px;
+
+  }
+
+  .card-header{
+    background-color:rgb(153, 43, 43);
+    display: inline-block;
+    color: #E7E7E7;
+    padding: 10px 10px;
+    border-radius:  10px 10px;
+  }
+
+
+  .card:hover{
+    background-color: tomato;
+    border: solid 1px;
+    border-color: white;
+  }
+
 
 
 
