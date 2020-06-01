@@ -305,7 +305,6 @@ h3.menu-item-title {
 @media (max-width: 767px) {
   /* Header */
   #logo-img {
-    margin-left: 30px;
     background: url('../images/logo_vousparlez_50px.png') no-repeat;
     width: 100px;
     height: 60px;
@@ -318,7 +317,7 @@ h3.menu-item-title {
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 4vw; /* 1vw = 1% of viewport width */
+    font-size: 1vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p {
     font-size: .6em;
