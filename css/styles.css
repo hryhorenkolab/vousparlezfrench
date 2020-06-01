@@ -317,7 +317,7 @@ h3.menu-item-title {
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 2.5vw; /* 1vw = 1% of viewport width */
+    font-size: 5vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p {
     font-size: .6em;
@@ -402,7 +402,7 @@ h3.menu-item-title {
   /* Header */
   .navbar-brand h1 { 
     padding-top: 5px;
-    font-size: 6vw;
+    font-size: 3vw;
   }
   /* End Header */
   
