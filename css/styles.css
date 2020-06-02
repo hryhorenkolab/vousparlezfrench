@@ -317,7 +317,7 @@ h3.menu-item-title {
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 4vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p {
     font-size: .6em;
@@ -421,8 +421,8 @@ h3.menu-item-title {
     width: 100%;
   }
 }
-
   /* End Home page */
+  /********** End of super extra small devices Only :-) (e.g., iPhone 4) **********/
 
   /* about-me page */
 #oksana_story{
