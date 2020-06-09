@@ -139,6 +139,7 @@ body {
 #about-me {
   background: url('../images/about-me.png') no-repeat;
   background-position: center;
+
 }
 #methods span, #about-me span, #map-tile span {
   position: absolute;
@@ -205,10 +206,11 @@ body {
   border: 2px solid #3F0C1F; 
   overflow: hidden;
   padding: 0;
-  margin-right: -15px;
+  margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
-  max-width: 1250px;
+  max-width: 400px;
+  border-radius: 50%;
 }
 .menu-item-photo div {
   position: absolute;
@@ -425,10 +427,7 @@ h3.menu-item-title {
   /********** End of super extra small devices Only :-) (e.g., iPhone 4) **********/
 
   /* about-me page */
-#oksana_story{
-line-height: 32px;   /* within paragraph */
-margin-bottom: 30px; /* between paragraphs */
-}
+
 
   /* end about-me page */
 
@@ -637,3 +636,21 @@ margin-bottom: 30px; /* between paragraphs */
       opacity: 1;
     }
   }
+
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("/images/1.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: #c60063;
+  color: #c60063;
+}
