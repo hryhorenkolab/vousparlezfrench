@@ -454,7 +454,7 @@ h3.menu-item-title {
 
   .card{
     max-width: 360px;
-    background-color: rgb(45, 45, 226);
+    background-color: rgb(89, 91, 226);
     margin: 10px 10px;
     overflow: hidden;
     color: white;
@@ -467,7 +467,7 @@ h3.menu-item-title {
   }
 
   .card-header{
-    background-color:rgb(153, 43, 43);
+    background-color:rgb(43, 153, 147);
     display: inline-block;
     color: #E7E7E7;
     padding: 10px 10px;
@@ -510,8 +510,8 @@ h3.menu-item-title {
   /* Set a specific color for each brand */
   
   /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
+  .fa-instagram {
+    background: #c56363;
     color: white;
     align-items: center;
   }
@@ -529,9 +529,10 @@ h3.menu-item-title {
 
 
   .card:hover{
-    background-color: tomato;
+    background-color: rgb(255, 255, 255);
     border: solid 1px;
     border-color: white;
+    color: black;
   }
 
     /* Pricing */
